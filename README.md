@@ -8,3 +8,5 @@ git clone [repo url https/ssh/github cli] : to clone the existing repository fro
 git status : show modified or updated file in working directory, staged for your next commit.
 
 git add [file_name] : add a untracked file to the git as it looks now ( we can use ".(period)" to add all files ).
+
+git commit -m "Initial Commit"  -m "Initial Commit Description"
