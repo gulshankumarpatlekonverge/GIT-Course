@@ -33,6 +33,14 @@ git checkout [branch_name] : to checkout between the branches present.
 
 git push --set-upstream origin [branch_name] : to publish the branch in github or to set upstream with the main branch. we can use --set-upstream or -u in the command.
 
+# pull merge file
+
+git diff [branch_name] : to know the commited changes in the branch.
+
+git merge [branch_name] : to merge the specific changes into the current one.
+
+git pull / git pull origin main : to pull the updated code from the main branch or merged code.
+
 # Welcome to GitHub Course Repository
 
 thank you and visit again for more information.
