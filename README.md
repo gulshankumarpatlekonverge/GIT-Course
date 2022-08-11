@@ -41,6 +41,25 @@ git merge [branch_name] : to merge the specific changes into the current one.
 
 git pull / git pull origin main : to pull the updated code from the main branch or merged code.
 
+# undoing changes in git
+
+git log : to know all the staged or commited changes.
+
+git reset : to know the last change to undo it. we can also add 'filename' to undo changes or use rest command.
+
+git reset HEAD~1 : to reset or undo last commit which is staged.
+
+git reset [hash key of commit] : this command is used to undo or unstage all the commits till the hash key.
+
+git reset --hard[hash key of commit] : to remove or delete all the commits till the last HASH KEY permanently.
+
+# deleting branch in git
+
+git rm [branch-name/file-name] : to remove or delete branch or file from local or remote repository.
+
+# forking
+It is done using the UI interface to get the copy of other repository into your code or repository.
+
 # Welcome to GitHub Course Repository
 
 thank you and visit again for more information.
