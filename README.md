@@ -9,4 +9,6 @@ git status : show modified or updated file in working directory, staged for your
 
 git add [file_name] : add a untracked file to the git as it looks now ( we can use ".(period)" to add all files ).
 
-git commit -m "Initial Commit"  -m "Initial Commit Description"
+git commit -m ["Initial Commit"]  -m ["Initial Commit Description"] : to save the changes of files locally.
+
+git push : to push code into the remote repository 
