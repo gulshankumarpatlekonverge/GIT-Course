@@ -11,4 +11,9 @@ git add [file_name] : add a untracked file to the git as it looks now ( we can u
 
 git commit -m ["Initial Commit"]  -m ["Initial Commit Description"] : to save the changes of files locally.
 
-git push : to push code into the remote repository 
+git push : to push code into the remote repository (git push origin master: to push code to the master branch).
+
+# Initializing empty repository and pushing it to github
+git init: to initialize empty repository locally on your system.
+
+git remote add origin [github url] : to add or make a connection to the remote repository to add local changes into it.
