@@ -29,7 +29,9 @@ git branch : to know the current branch on which working on or list of all branc
 
 git checkout -b [new_branch_name] : to create new branch using the existing branch or main branch.
 
-git checkout [branch_name]: to checkout between the branches present.
+git checkout [branch_name] : to checkout between the branches present.
+
+git push --set-upstream origin [branch_name] : to publish the branch in github or to set upstream with the main branch. we can use --set-upstream or -u in the command.
 
 # Welcome to GitHub Course Repository
 
