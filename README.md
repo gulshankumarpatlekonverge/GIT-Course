@@ -25,6 +25,14 @@ git remote -v : to show the remote repository which we are connected to.
 
 # git branch
 
-git branch : to know the current branch on which working on.
+git branch : to know the current branch on which working on or list of all branches.
 
-git checkout -b [new_branch_name] : to create new branch using the existing branch or main branch
+git checkout -b [new_branch_name] : to create new branch using the existing branch or main branch.
+
+git checkout [branch_name] : to checkout between the branches present.
+
+git push --set-upstream origin [branch_name] : to publish the branch in github or to set upstream with the main branch. we can use --set-upstream or -u in the command.
+
+# Welcome to GitHub Course Repository
+
+thank you and visit again for more information.
